@@ -159,7 +159,7 @@ drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
 
 [traps.bridge_supply_anomaly]
 path = "out/BridgeSupplyTrap.sol/BridgeSupplyTrap.json"
-response_contract = "0xRESPONSE_CONTRACT_ADDRESS"   # replace with deployed AVSResponder
+response_contract = "0xRESPONSE_CONTRACT_ADDRESS"   # replace with deployed BridgeSupplyResponse Address
 response_function = "respondWithSupplyAlert(address,uint256,uint256)"
 cooldown_period_blocks = 30
 min_number_of_operators = 1
