@@ -159,15 +159,15 @@ drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
 
 [traps.bridge_supply_anomaly]
 path = "out/BridgeSupplyTrap.sol/BridgeSupplyTrap.json"
-response_contract = "0x419ca88c659626115d02e030d4ab138fe97cede3"
+response_contract = "0xRESPONSE_CONTRACT_ADDRESS"   # replace with deployed AVSResponder
 response_function = "respondWithSupplyAlert(address,uint256,uint256)"
 cooldown_period_blocks = 30
 min_number_of_operators = 1
 max_number_of_operators = 3
 block_sample_size = 10
 private_trap = true
-whitelist = ["0x5ef7e326Dd821fadfE039Af897DccA917616736A"]
-address = "0x498f339Bde0149fda74Bf397f5af959B8bde1415"
+whitelist = ["YOUR_OPERATOR_ADDRESS"]
+
 ```
 
 ---
