@@ -15,4 +15,4 @@ max_number_of_operators = 3
 block_sample_size = 10
 private_trap = true
 whitelist = ["0x5ef7e326Dd821fadfE039Af897DccA917616736A"]
-address = "0x498f339Bde0149fda74Bf397f5af959B8bde1415"
+
